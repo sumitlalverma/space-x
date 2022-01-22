@@ -1,0 +1,22 @@
+.center {
+  text-align: center;
+}
+
+.plr-20 {
+  padding: 0px 20px;
+}
+
+.d-flex {
+  display: flex
+}
+
+.center-flex {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .body-container {
+    flex-direction: column;
+  }
+}

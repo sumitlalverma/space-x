@@ -1,0 +1,55 @@
+.main {
+  box-shadow: 0px 0px 0px blue;
+  width: 20%;
+  background-color: #fff;
+  padding: 1px 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: fit-content;
+}
+
+@media only screen and (max-width: 600px) {
+  .main {
+    width: 100%;
+  }
+}
+
+.flexBox {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.buttonContainer {
+  flex-basis: 50%;
+}
+
+.button {
+  height: 40px;
+  display: flex;
+  width: 64px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #c5df9d;
+  margin: 0px 10px 10px 10px;
+  transition: all 0.3s;
+}
+
+.button:hover {
+  background-color: #7aba02;
+  cursor: pointer;
+}
+
+.selectedButton {
+  background-color: #7aba02;
+}
+
+.filtersLabel {
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
